@@ -18,7 +18,7 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS employees
 
 # Выполняем вставку записей в таблицу
 cursor.execute("INSERT INTO employees (name, function, salary) VALUES (?, ?, ?)",
-               ('Петросян Никита Игоревич', 'Программист', 186500))
+               ('Быцко Антон Владимирович', 'Программист', 186500))
 cursor.execute("INSERT INTO employees (name, function, salary) VALUES (?, ?, ?)",
                ('Артимов Александр Леонидович', 'Менеджер', 230000))
 cursor.execute("INSERT INTO employees (name, function, salary) VALUES (?, ?, ?)",
